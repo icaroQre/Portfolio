@@ -9,8 +9,8 @@ export default function Construction () {
 <div className="stars3" aria-hidden="true"></div>
 <main className="main">
 	<section className="contact">
-		<h1 className="title">Awesome Thing</h1>
-		<h2 className="sub-title">Site Under Construction</h2>
+		<h1 className="title">Site Under Construction</h1>
+		<h2 className="sub-title">Finalizando alguns detalhes, volte amanhã ;&#41;</h2>
 	</section>
 </main>
         </>
