@@ -1,0 +1,56 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 730px;
+    height: auto;
+    margin: auto;
+
+    @media (max-width: 1024px) {
+        padding: 64px 15%;
+    }
+}
+
+.skill-container {
+    width: 100%;
+    margin: 124px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    @media (max-width: 1024px) {
+        margin: 64px 0;
+        p {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+    }
+    
+    p{
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--text-primary);
+        margin-bottom: 48px;
+
+        @media (max-width: 1024px) {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        img {
+            margin: 16px;
+        }
+    }
+}
