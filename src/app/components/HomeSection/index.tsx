@@ -16,7 +16,7 @@ export default function Home () {
                 <p> Portfolio </p>
             </div>
             <MdOutlineKeyboardArrowDown className="arrow"/>
-            <div className="text-div" data-aos="fade-down">
+            <div className="text-div">
                 <div className="text-wrapper">
                 <motion.div 
                 initial={{opacity: 0, translateY: -200} }

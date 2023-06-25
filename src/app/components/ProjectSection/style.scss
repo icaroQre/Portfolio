@@ -6,6 +6,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 128px 15%;
+    overflow-x: hidden;
 
     h1{
         color: var(--text-primary);
@@ -15,6 +16,10 @@
 
     @media (max-width: 1024px) {
         padding: 64px 0;
+
+        h1{
+            font-size: 18px;
+        }
     }
 }
 

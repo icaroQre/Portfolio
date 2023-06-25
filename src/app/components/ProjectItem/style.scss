@@ -1,6 +1,6 @@
 .project-item-container{
     width: 350px;
-    max-width: 450px;
+    max-width: 400px;
     height: 250px;
     margin: 32px;
     overflow: hidden;
@@ -15,6 +15,7 @@
         width: 80%;
         margin: 0;
         margin-bottom: 32px;
+        height: 200px;
     }
 }
 
@@ -51,6 +52,10 @@
     font-weight: bold;
     font-size: 16px;
     text-align: center;
+
+    @media (max-width: 1024px) {
+        font-size: 14px;
+    }
 }
 
 .description-link{

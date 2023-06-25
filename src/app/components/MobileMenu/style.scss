@@ -1,6 +1,6 @@
 .hamburger-menu {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,7 +15,7 @@
       background-color: var(--color-secondary);
       position: absolute;
       z-index: 99;
-      top: 64px;
+      top: 56px;
       right: 0;
       border-bottom-left-radius: 16px;
       transition: all linear 80ms;

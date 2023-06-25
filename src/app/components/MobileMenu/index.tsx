@@ -13,7 +13,7 @@ export default function MobileMenu () {
 
   return (
     <>
-    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleClick}>
+    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onMouseOutCapture={handleClick}>
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>
@@ -21,7 +21,7 @@ export default function MobileMenu () {
         <li> <Link to="home-container" smooth={true} > Home </Link> </li>
         <li> <Link to="about-container" smooth={true}> Sobre </Link> </li>
         <li> <Link to="home-container" smooth={true} > Contato </Link> </li>
-        <li><a href="https://github.com/icaroQre"> Git Hub </a></li>
+        <li> <a href="https://github.com/icaroQre"> Git Hub </a></li>
         <li> <Link to="project-container" smooth={true}> Projetos </Link> </li>
       </ul>
     </div>
