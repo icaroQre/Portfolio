@@ -35,7 +35,7 @@ export default function Timeline () {
                 <div className="dot"></div>
                 <div className="timeline-item-content">
                     <h1> 2023 </h1>
-                    <p> Estudo em desenvolvimento WEB com JavaScript e introdução a bibliotecas avançadas </p>
+                    <p> Estudo de frameworks e estudo em UX e UI </p>
                 </div>
                 </motion.div>
             <motion.div 
