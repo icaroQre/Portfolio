@@ -6,6 +6,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Home () {
 
@@ -46,7 +47,13 @@ export default function Home () {
                 </motion.div>
                 </div>
             </div>
-            <div className="image-div"></div>
+            <motion.div
+            initial={{opacity: 0, translateX: 500} }
+            whileInView={{opacity: 1, translateX: 0}}
+            transition={{duration: 0.8, delay: 0.2}}
+            className="image-div">
+                <Image src="/images/hero-2.png" alt="Ícaro Queiroz Reccanello" width={450} height={450}></Image>
+            </motion.div>
         </div>
     )
 }

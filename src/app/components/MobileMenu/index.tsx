@@ -13,7 +13,7 @@ export default function MobileMenu () {
 
   return (
     <>
-    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onMouseOutCapture={handleClick}>
+    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onMouseUpCapture={handleClick}>
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>
