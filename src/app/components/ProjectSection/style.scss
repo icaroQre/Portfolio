@@ -1,0 +1,34 @@
+.project-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 128px 15%;
+
+    h1{
+        color: var(--text-primary);
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    @media (max-width: 1024px) {
+        padding: 64px 0;
+    }
+}
+
+.project-item-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}

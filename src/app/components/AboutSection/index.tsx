@@ -1,12 +1,13 @@
 import "./style.scss"
-import html from "../../assets/icons/vscode-icons_file-type-html.png"
-import css from "../../assets/icons/vscode-icons_file-type-css.png"
-import js from "../../assets/icons/skill-icons_javascript.png"
-import react from "../../assets/icons/skill-icons_react-dark.png"
-import typescript from "../../assets/icons/skill-icons_typescript.png"
-import styledcomponents from "../../assets/icons/skill-icons_styledcomponents.png"
-import figma from "../../assets/icons/logos_figma.png"
+import html from "../../../../public/icons/vscode-icons_file-type-html.png"
+import css from "../../../../public/icons/vscode-icons_file-type-css.png"
+import js from "../../../../public/icons/skill-icons_javascript.png"
+import react from "../../../../public/icons/skill-icons_react-dark.png"
+import typescript from "../../../../public/icons/skill-icons_typescript.png"
+import styledcomponents from "../../../../public/icons/skill-icons_styledcomponents.png"
+import figma from "../../../../public/icons/logos_figma.png"
 import Image from "next/image"
+import Timeline from "../Timeline"
 
 export default function AboutSection () {
     return(
@@ -25,6 +26,7 @@ export default function AboutSection () {
                 <Image src={figma} width={33} height={50} alt="figma-icon"/>
             </div>
         </div>
+        <Timeline />
         </div>
 
         </>

@@ -101,7 +101,7 @@
     justify-content: space-between;
 }
 
-.contact-icons {
+.contact a {
     font-size: 32px;
     color: var(--text-secondary);
     transition: all linear 80ms;
@@ -113,7 +113,7 @@
     
 }
 
-.contact-icons:hover {
+.contact a:hover {
     color: var(--color-secondary);
     transform: scale(1.2);
 }

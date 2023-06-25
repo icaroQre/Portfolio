@@ -1,13 +1,18 @@
-import Image from 'next/image'
 import Header from './components/Header'
 import HomeSection from './components/HomeSection'
 import AboutSection from './components/AboutSection'
-import Construction from './components/Construction'
+import ProjectSection from './components/ProjectSection'
+import Footer from './components/Footer'
 
 export default function Home() {
+
   return (
     <main>
-      <Construction />
+      <Header />
+      <HomeSection />
+      <AboutSection />
+      <ProjectSection />
+      <Footer />
     </main>
   )
 }

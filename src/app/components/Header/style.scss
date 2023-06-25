@@ -33,6 +33,10 @@
         font-weight: bold;
         cursor: pointer;
         transition: all linear 80ms;
+        
+        a{
+            color: currentColor;
+        }
     }
 
     li:hover {
