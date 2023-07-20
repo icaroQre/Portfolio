@@ -39,7 +39,7 @@ export default function Home () {
                 whileInView={{opacity: 1, translateY: 0}}
                 transition={{duration: 0.8, delay: 0.5}}
                 className="contact">
-                    <a href="https://www.linkedin.com/in/%C3%ADcaro-queiroz-reccanello-9b903a235/"><FaLinkedin /></a>
+                    <a href=""><FaLinkedin /></a>
                     <a href="https://github.com/icaroQre"><BsGithub /></a>
                     <a href="https://www.instagram.com/icaroqre/"><AiFillInstagram /></a>
                     <a href="https://wa.me/5543999774648"><RiWhatsappFill /></a>
